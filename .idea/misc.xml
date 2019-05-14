@@ -10,7 +10,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/aws/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-ibm/pom.xml" />
         <option value="$PROJECT_DIR$/google-cloud-platform/pom.xml" />
       </set>
     </option>
