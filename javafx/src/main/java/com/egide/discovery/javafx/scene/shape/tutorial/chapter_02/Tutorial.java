@@ -95,32 +95,32 @@ public class Tutorial extends Application
      *
      * @param event Key event.
      */
-    private final void onKeyPressed(KeyEvent event)
+    private void onKeyPressed(KeyEvent event)
     {
         switch (event.getCode())
         {
-            case LEFT:
-                sphere.translateXProperty().set(sphere.translateXProperty().get() - 10);
-                break;
-
             case RIGHT:
-                sphere.translateXProperty().set(sphere.translateXProperty().get() + 10);
+                camera.translateXProperty().set(camera.translateXProperty().get() - 10);
                 break;
 
-            case UP:
-                sphere.translateYProperty().set(sphere.translateYProperty().get() - 10);
+            case LEFT:
+                camera.translateXProperty().set(camera.translateXProperty().get() + 10);
                 break;
 
             case DOWN:
-                sphere.translateYProperty().set(sphere.translateYProperty().get() + 10);
+                camera.translateYProperty().set(camera.translateYProperty().get() - 10);
                 break;
 
-            case PAGE_UP:
-                sphere.translateZProperty().set(sphere.translateZProperty().get() - 50);
+            case UP:
+                camera.translateYProperty().set(camera.translateYProperty().get() + 10);
                 break;
 
-            case PAGE_DOWN:
-                sphere.translateZProperty().set(sphere.translateZProperty().get() + 50);
+            case SUBTRACT:
+                camera.translateZProperty().set(camera.translateZProperty().get() - 50);
+                break;
+
+            case ADD:
+                camera.translateZProperty().set(camera.translateZProperty().get() + 50);
                 break;
 
             case ESCAPE:
