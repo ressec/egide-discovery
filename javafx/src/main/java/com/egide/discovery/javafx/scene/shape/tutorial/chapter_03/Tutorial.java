@@ -16,7 +16,7 @@ import javafx.stage.Stage;
  * <p>
  * This tutorial completes the tutorial #002 by:
  * 1. Move the camera instead of the sphere object.
- * 2. Set a clipping plane (near and far°
+ * 2. Set a clipping plane (near and far) ones.
  * <hr>
  * @author  <a href="mailto:christophe.resse@gmail.com">Resse Christophe - Egide Corp.</a>
  * @version 1.0.0
@@ -31,12 +31,12 @@ public class Tutorial extends Application
     /**
      * Scene width.
      */
-    private final static int SCENE_WIDTH = 800;
+    private static final int SCENE_WIDTH = 800;
 
     /**
      * Scene height.
      */
-    private final static int SCENE_HEIGHT = 600;
+    private static final int SCENE_HEIGHT = 600;
 
     /**
      * Sphere radius.
@@ -110,31 +110,31 @@ public class Tutorial extends Application
      *
      * @param event Key event.
      */
-    private final void onKeyPressed(KeyEvent event)
+    private void onKeyPressed(KeyEvent event)
     {
         switch (event.getCode())
         {
-            case LEFT:
+            case RIGHT:
                 camera.translateXProperty().set(camera.translateXProperty().get() - 10);
                 break;
 
-            case RIGHT:
+            case LEFT:
                 camera.translateXProperty().set(camera.translateXProperty().get() + 10);
                 break;
 
-            case UP:
+            case DOWN:
                 camera.translateYProperty().set(camera.translateYProperty().get() - 10);
                 break;
 
-            case DOWN:
+            case UP:
                 camera.translateYProperty().set(camera.translateYProperty().get() + 10);
                 break;
 
-            case PAGE_UP:
+            case SUBTRACT:
                 camera.translateZProperty().set(camera.translateZProperty().get() - 50);
                 break;
 
-            case PAGE_DOWN:
+            case ADD:
                 camera.translateZProperty().set(camera.translateZProperty().get() + 50);
                 break;
 
