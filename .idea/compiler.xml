@@ -7,21 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discovery-cloud-ibm" />
-        <module name="discovery-jmonkey" />
         <module name="discovery.spring" />
+        <module name="discovery.akka" />
         <module name="jmonkey" />
         <module name="spring" />
         <module name="discovery-cloud-google" />
         <module name="discovery-javafx" />
         <module name="cloud-google" />
         <module name="discovery-cloud-amazon" />
-        <module name="cloud-ibm" />
-        <module name="discovery-firebase" />
-        <module name="javafx" />
         <module name="cloud-amazon" />
-        <module name="akka" />
-        <module name="discovery.akka" />
+        <module name="discovery-firebase" />
         <module name="firebase" />
+        <module name="cloud-ibm" />
+        <module name="akka" />
+        <module name="javafx" />
+        <module name="discovery-jmonkey" />
       </profile>
     </annotationProcessing>
   </component>
