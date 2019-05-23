@@ -10,7 +10,10 @@ import javafx.stage.Stage;
  * Tutorial #001 on JavaFX 3D.
  * <p>
  * This tutorial demonstrates how to setup a 3D scene using the JavaFX scene graph and create a sphere shape that
- * is centered on the screen.
+ * is centered on the screen.<p> </p>
+ * <p>
+ * This tutorial is based on YouTube tutorials serie at: <a href="https://www.youtube.com/watch?v=mbK2xqG2glM&frags=pl%2Cwn">JavaFX 3D Tutorial #0 - Course Introduction</a>
+ * </p>
  * <hr>
  * @author  <a href="mailto:christophe.resse@gmail.com">Resse Christophe - Egide Corp.</a>
  * @version 1.0.0

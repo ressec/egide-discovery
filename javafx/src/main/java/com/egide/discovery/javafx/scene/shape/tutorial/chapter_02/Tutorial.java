@@ -17,7 +17,10 @@ import javafx.stage.Stage;
  * This tutorial completes the tutorial #001 by:
  * 1. Set the scene background color to BLACK
  * 2. Add an event handler to control the sphere movement on the X and Y axis.
- * 3. Add a perspective camera.
+ * 3. Add a perspective camera.<p> </p>
+ * <p>
+ * This tutorial is based on YouTube tutorials serie at: <a href="https://www.youtube.com/watch?v=mbK2xqG2glM&frags=pl%2Cwn">JavaFX 3D Tutorial #0 - Course Introduction</a>
+ * </p>
  * <hr>
  * @author  <a href="mailto:christophe.resse@gmail.com">Resse Christophe - Egide Corp.</a>
  * @version 1.0.0
